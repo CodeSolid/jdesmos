@@ -11,8 +11,12 @@ class Desmos:
 
     def build_graph_lines(self):
         graph_lines = ""
-        for item in self.expressions:                        
-            line = 'calculator.setExpression('"{0}"');'.format(dumps(item))
+        for item in self.expressions:
+            if type(item) == type(''):
+                expr = item
+            else:
+                expr = dumps(item)            
+            line = 'calculator.setExpression('"{0}"');'.format(expr)
             graph_lines = graph_lines + line
         return graph_lines
     
