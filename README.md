@@ -1,1 +1,0 @@
-# jdesmos - Easily embed Desmos graphs in Jupyter
