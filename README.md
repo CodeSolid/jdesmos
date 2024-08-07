@@ -8,4 +8,4 @@ The [desmos calculator](https://www.desmos.com/calculator) is a favorite interac
 
 ## More information and sample code
 
-For a brief tour of what JDesmos can do, see our [sample notebook](Demo.ipynb).
+For a brief tour of what JDesmos can do, see our [sample notebook](https://github.com/CodeSolid/jdesmos/blob/main/Demo.ipynb).

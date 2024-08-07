@@ -1,7 +1,7 @@
 # Needed for local builds
 [tool.poetry]
 name = "jdesmos"
-version = "0.0.03"
+version = "0.0.04"
 description = "Easily embed Desmos Graphs in Jupyter"
 authors = ["John Lockwood <john@codesolid.com>"]
 readme = "README.md"
@@ -10,7 +10,7 @@ license = "GPL3.0"
 # Suggested for PyPI, unfortunately redundant.
 [project]
 name = "jdesmos"
-version = "0.0.03"
+version = "0.0.04"
 description = "Easily embed Desmos Graphs in Jupyter"
 authors = ["John Lockwood <john@codesolid.com>"]
 readme = "README.md"
